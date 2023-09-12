@@ -1,1 +1,7 @@
+function serialize(numbers) {
+  return numbers.join(' ');
+}
 
+function deserialize(serialized) {
+  return serialized.split(' ').map(Number);
+}
